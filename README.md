@@ -85,24 +85,6 @@ The dashboard includes:
 - Average Rating by Seat Type
 - Service Rating Breakdown
 
-## Project Structure
-
-```text
-british-airways-reviews-analysis/
-│
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-├── outputs/
-├── powerbi/
-├── images/
-│   └── dashboard.png
-│
-└── README.md
-```
-
 ## Notes
 
 The full review text columns were removed from the main Power BI dataset to avoid CSV parsing issues caused by long text fields.
